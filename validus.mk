@@ -38,3 +38,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-lenovo
 # Maintainer info
 PRODUCT_BUILD_PROP_OVERRIDES += \
 	DEVICE_MAINTAINERS="Hassan Sardar (Has.007)"
+
+# Include Bootanimation configuration
+TARGET_BOOT_ANIMATION_RES := 720
